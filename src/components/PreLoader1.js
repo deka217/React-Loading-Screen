@@ -14,7 +14,7 @@ function PreLoader1() {
           setData(json);
           setDone(true);
         });
-    }, 2000);
+    }, 100000);
   }, []);
 
   return (
